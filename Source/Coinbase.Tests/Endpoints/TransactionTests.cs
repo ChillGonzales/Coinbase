@@ -64,7 +64,7 @@ namespace Coinbase.Tests.Endpoints
             {
                Type = "send",
                To = "1AUJ8z5RuHRTqD1eikyfUUetzGmdWLGkpT",
-               Amount = 0.1m,
+               Amount = "0.1m",
                Currency = "BTC",
                Idem = "9316dd16-0c05"
          };

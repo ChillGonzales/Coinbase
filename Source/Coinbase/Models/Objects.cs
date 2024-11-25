@@ -499,7 +499,7 @@ namespace Coinbase.Models
       public string To { get; set; }
 
       [JsonProperty("amount")]
-      public decimal Amount { get; set; }
+      public string Amount { get; set; }
 
       [JsonProperty("currency")]
       public string Currency { get; set; }

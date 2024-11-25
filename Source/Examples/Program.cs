@@ -16,7 +16,7 @@ namespace Examples
 
          var create = new CreateTransaction
             {
-               Amount = 1.0m,
+               Amount = "1.0",
                Currency = "BTC"
             };
          var response = await client
